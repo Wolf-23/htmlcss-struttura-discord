@@ -6,14 +6,13 @@
 }
 
 .header-top{
-    background-color:aquamarine;
     display: flex;
+    height: 50px;
 }
 
 .container {
     width: 60%;
     margin: auto;
-    background-color: red ;
     display: flex;
     justify-content: space-between;
 }
@@ -30,10 +29,25 @@
 
 .navbar {
     width: 60%;
+}
+
+.navbar ul {
     display: flex;
+    justify-content: space-around;
 }
 
 .navbar ul li{
-    display: flex;
+    display: inline;
+   
+}
+
+/* Regole di Debug */
+
+.debug .header-top {
+    background-color: #ADD8E6;
+}
+
+.debug .container  {
+    background-color: #DAA521;
 }
 
