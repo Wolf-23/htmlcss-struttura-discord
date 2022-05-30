@@ -4,3 +4,36 @@
     margin: 0;
     box-sizing: border-box;
 }
+
+.header-top{
+    background-color:aquamarine;
+    display: flex;
+}
+
+.container {
+    width: 60%;
+    margin: auto;
+    background-color: red ;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo {
+    text-align: left;
+    width: 20%;
+}
+
+.login  {
+  text-align: right;
+    width: 20%;
+}
+
+.navbar {
+    width: 60%;
+    display: flex;
+}
+
+.navbar ul li{
+    display: flex;
+}
+
