@@ -5,6 +5,8 @@
     box-sizing: border-box;
 }
 
+/* header top */
+
 .header-top{
     display: flex;
     height: 50px;
@@ -27,6 +29,10 @@
     width: 20%;
 }
 
+.logo, .login {
+    padding: 8px;
+}
+
 .navbar {
     width: 60%;
 }
@@ -37,9 +43,24 @@
 }
 
 .navbar ul li{
-    display: inline;
-   
+    list-style: none;
+    padding: 8px;
 }
+
+/* header bottom */
+
+.header-bottom {
+    height: 400px;
+    padding: 50px;
+}
+
+.header-content {
+    width: 50%;
+    margin: auto;
+    height: 300px;
+}
+
+
 
 /* Regole di Debug */
 
@@ -51,3 +72,10 @@
     background-color: #DAA521;
 }
 
+.debug .header-bottom {
+    background-color: #00008B;
+}
+
+.debug .header-content {
+    background-color: #EE81EE;
+}
