@@ -84,15 +84,14 @@
 }
 
 .main-big-section {
-    display: flex;
     height: 800px;
-    align-items: center;
-    justify-content: center;
+    padding: 100px;
 }
 
 .big-content {
     height: 600px;
     width: 60%;
+    margin: auto;
 }
 
 /* Footer */
@@ -117,6 +116,12 @@
     width: calc(70% / 4);
     height: 500px;
 }
+
+
+
+
+
+
 
 
 /* Regole di Debug */
