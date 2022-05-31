@@ -50,11 +50,13 @@
 /* header bottom */
 
 .header-bottom {
+    display: flex;
     height: 400px;
-    padding: 50px;
+    align-items: center;
 }
 
 .header-content {
+    display: flex;
     width: 50%;
     margin: auto;
     height: 300px;
@@ -69,8 +71,8 @@
 .container-main {
     width: 60%;
     display: flex;
-    padding: 50px 0;
     margin: auto;
+    align-items: center;
 }
 
 .main-img {
