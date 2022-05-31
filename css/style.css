@@ -117,6 +117,20 @@
     height: 500px;
 }
 
+.footer-bottom {
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-pulsanti {
+    width: 60%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
 
 
 
@@ -181,6 +195,16 @@
     border: 1px dashed white;
 }
 
-.debug .footer2 {
-    background-color: #7FFFD4;
+.debug .footer-bottom {
+    background-color: #23272A;
+}
+
+.debug .footer-pulsanti {
+    background-color: #20B2AA;
+}
+
+.debug .footer-pulsanti button {
+    background-color: #F08080;
+    border: 2px dashed black;
+
 }
