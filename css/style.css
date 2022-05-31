@@ -118,10 +118,10 @@
 }
 
 .footer-bottom {
-    height: 70px;
+    height: 60px;
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: flex-end;
 }
 
 .footer-pulsanti {
@@ -181,10 +181,6 @@
     border: 2px dashed black;
 }
 
-.debug .footer-container {
-    background-color: #23272A;
-}
-
 .debug .footer-big-content {
     background-color: #F08080;
     border: 2px dashed black;
@@ -195,7 +191,7 @@
     border: 1px dashed white;
 }
 
-.debug .footer-bottom {
+.debug footer {
     background-color: #23272A;
 }
 
